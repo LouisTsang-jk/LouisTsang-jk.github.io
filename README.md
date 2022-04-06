@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## LouisTsang的学习记录
+### JavaScript基础
+#### 变量类型
+#### 原型链
+#### 闭包
+#### 执行上下文
+#### 词法环境/变量环境
+#### 调用栈
+#### 暂时性死区
+#### 变量提升
+#### This
+#### 箭头函数
+#### Promise
 
-You can use the [editor on GitHub](https://github.com/LouisTsang-jk/LouisTsang-jk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+#### 事件循环
+### 手写代码
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### CSS基础
+### Webpack
+### Vite
+### React
+#### 虚拟DOM
+#### 合成事件
+#### Fiber
+#### Hook
+### Redux
 
-### Markdown
+### 优化
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 监控手段
+##### 性能监控
+##### 异常监控
+#### 措施
+### 计算机
+#### 网络
+##### TCP/UDP
+##### HTTP
+##### HTTPS
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LouisTsang-jk/LouisTsang-jk.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### 设计模式
+#### 算法
+#### 安全

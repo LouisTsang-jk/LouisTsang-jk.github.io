@@ -24,5 +24,7 @@
   2. typeof new 基础类型的构造函数(any)
       > 除function外，其他构造函数创建的实例都认为是object
 - `instanceof`   
+    > [手写instanceof](/lib/手写代码/常规/insatanceof/index.js)
+    
   检测构造函数的 prototype 属性是否出现在目标对象的原型链上
 - `Object.prototype.toString`

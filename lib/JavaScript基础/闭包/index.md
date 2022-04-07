@@ -3,11 +3,28 @@
 
 从闭包这个术语来说，是指函数变量可以被隐藏于作用域链内，所以看起来像是函数将变量包裹起来了。    
 
-那为什么会出现闭包是因为JavaScript采用词法作用域，函数的执行依赖于变量作用域，而这个作用域就是执行上下文中的作用域链。
+> 出现闭包是因为JavaScript采用词法作用域，函数的执行依赖于变量作用域，而这个作用域就是执行上下文中的作用域链。
 
+## 调试
+```
+function outer () {
+    debugger;
+    const outer = 'outer';
+    return function inner () {
+        const inner = 'inner';
+        console.log('outer', outer);
+        console.log('inner', inner);
+    }
+}
+const i = outer();
+i();
+```
+![closure](./closure.png)
+> 作用域[[Scopes]]内有outer指针指向outer函数内部
 
 
 ## 使用场景：
-1. 防抖、节流
-2. 模拟私有方法
-3. 柯里化
+1. 防抖
+2. 节流
+3. 模拟私有方法
+4. 柯里化

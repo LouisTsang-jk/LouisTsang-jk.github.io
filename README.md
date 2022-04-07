@@ -6,9 +6,9 @@
 <details open>
   <summary class="arrow" >目录</summary>   
   <ul>
-    <li><a href="/lib/JavaScript基础/变量类型/index.md">变量类型</a></li>
-    <li><a href="/lib/JavaScript基础/原型链/index.md">原型链</a></li>
-    <li>闭包</li>
+    <li><a href="/lib/JavaScript基础/变量类型">变量类型</a></li>
+    <li><a href="/lib/JavaScript基础/原型链">原型链</a></li>
+    <li><a href="/lib/JavaScript基础/闭包">闭包</a></li>
     <li>执行上下文</li>
     <li>词法环境/变量环境</li>
     <li>调用栈</li>

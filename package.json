@@ -1,0 +1,23 @@
+{
+  "name": "louistsang-jk.github.io",
+  "version": "0.0.0",
+  "description": "LouisTsang学习日志",
+  "main": "README.md",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisTsang-jk/LouisTsang-jk.github.io.git"
+  },
+  "keywords": [],
+  "author": "LouisTsang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisTsang-jk/LouisTsang-jk.github.io/issues"
+  },
+  "homepage": "https://github.com/LouisTsang-jk/LouisTsang-jk.github.io#readme"
+}

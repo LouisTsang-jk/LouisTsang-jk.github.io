@@ -9,9 +9,10 @@
     <li><a href="/lib/JavaScript基础/变量类型">变量类型</a></li>
     <li><a href="/lib/JavaScript基础/原型链">原型链</a></li>
     <li><a href="/lib/JavaScript基础/闭包">闭包</a></li>
-    <li><a href="/lib/JavaScript基础/执行上下文">执行上下文</a><</li>
-    <li>词法环境/变量环境</li>
-    <li>调用栈</li>
+    <li><a href="/lib/JavaScript基础/执行上下文">执行上下文</a></li>
+    <li><a href="/lib/JavaScript基础/词法环境">词法环境</a></li>
+    <li><a href="/lib/JavaScript基础/变量环境">变量环境</a></li>
+    <li><a href="/lib/JavaScript基础/调用栈">调用栈</a></li>
     <li>暂时性死区</li>
     <li>变量提升</li>
     <li>This</li>

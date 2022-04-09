@@ -29,7 +29,7 @@
         <tr>
             <td><a href="/lib/JavaScript基础/This">This</a></td>
             <td>箭头函数</td>
-            <td>异步</td>
+            <td><a href="/lib/JavaScript基础/异步">异步</a></td>
             <td>事件循环</td>
         </tr>
         <tr>

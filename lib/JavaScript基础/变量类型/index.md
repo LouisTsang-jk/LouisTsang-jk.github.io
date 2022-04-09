@@ -36,7 +36,7 @@
   2. typeof new 基本类型的构造函数(any)
       > 除function外，其他构造函数创建的实例都认为是object
 - `instanceof`   
-    > [手写instanceof](/lib/手写代码/常规/insatanceof/index.js)    
+    > [手写instanceof](/lib/手写代码/常规/instanceof)    
     > [ECMA|instanceof](https://tc39.es/ecma262/#sec-instanceofoperator)
 
   检测构造函数的 prototype 属性是否出现在目标对象的原型链上

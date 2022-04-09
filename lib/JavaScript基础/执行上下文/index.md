@@ -10,8 +10,8 @@
 
 创建执行上下文的过程分为两步：
 1. 创建阶段
-    - 创建[词法环境](../词法环境)(Lexical Environment)组件
-    - 创建[变量环境](../变量环境)(Variable Environment)组件
+    - 创建[词法环境(Lexical Environment)](../词法环境)组件
+    - 创建[变量环境(Variable Environment)](../变量环境)组件
 > 词法环境里变量的初始值是uninitialized；   
 > 变量环境里变量的初始值是undefined；这就是为什么会有变量提升和暂存死区的原因，而在词法环境的执行阶段下，如果找不到let变量的值会被赋值为undefined。
 2. 执行阶段

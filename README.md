@@ -13,9 +13,10 @@
     <li><a href="/lib/JavaScript基础/词法环境">词法环境</a></li>
     <li><a href="/lib/JavaScript基础/变量环境">变量环境</a></li>
     <li><a href="/lib/JavaScript基础/调用栈">调用栈</a></li>
+    <li><a href="/lib/JavaScript基础/垃圾回收机制">垃圾回收机制</a></li>
     <li>暂时性死区</li>
     <li>变量提升</li>
-    <li>This</li>
+    <li><a href="/lib/JavaScript基础/This">This</a></li>
     <li>箭头函数</li>
     <li>Promise</li>
     <li>事件循环</li>
@@ -29,6 +30,11 @@
 - - -
 ### CSS基础
 - - -
+### 工程化
+#### 性能监控
+#### 性能指标
+#### 错误监控
+#### 性能优化
 ### Webpack
 - - -
 ### Vite

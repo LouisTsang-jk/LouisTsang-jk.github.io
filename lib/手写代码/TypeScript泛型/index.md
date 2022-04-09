@@ -1,0 +1,10 @@
+# TypeScript泛型
+- [Exclude](./Exclude.ts)
+- [Extract](./Extract.ts)
+- [Omit](./Omit.ts)
+- [Parameters](./Parameters.ts)
+- [Partial](./Partial.ts)
+- [Pick](./Pick.ts)
+- [Readonly](./Readonly.ts)
+- [Record](./Record.ts)
+- [Required](./Required.ts)

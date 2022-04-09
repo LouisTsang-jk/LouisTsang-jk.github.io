@@ -18,7 +18,7 @@
     <li>变量提升</li>
     <li><a href="/lib/JavaScript基础/This">This</a></li>
     <li>箭头函数</li>
-    <li>Promise</li>
+    <li>异步</li>
     <li>事件循环</li>
   </ul>
 </details>

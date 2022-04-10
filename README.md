@@ -37,6 +37,7 @@
             <td><a href="/lib/手写代码/常规/debounce">debounce</a></td>
             <td><a href="/lib/手写代码/常规/throttle">throttle</a></td>
             <td><a href="/lib/手写代码/常规/instanceof">instanceof</a></td>
+            <td><a href="/lib/手写代码/常规/bind">bind</a></td>
         </tr>
     </tbody>
 </table>

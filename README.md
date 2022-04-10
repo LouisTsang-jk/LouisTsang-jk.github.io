@@ -33,21 +33,25 @@
             <td>事件循环</td>
         </tr>
         <tr>
-            <td>手写代码｜常规</td>
+            <td rowspan="2">手写代码｜常规</td>
             <td><a href="/lib/手写代码/常规/debounce">debounce</a></td>
             <td><a href="/lib/手写代码/常规/throttle">throttle</a></td>
             <td><a href="/lib/手写代码/常规/instanceof">instanceof</a></td>
             <td><a href="/lib/手写代码/常规/bind">bind</a></td>
             <td><a href="/lib/手写代码/常规/call">call</a></td>
+        </tr>
+        <tr>
             <td><a href="/lib/手写代码/常规/apply">apply</a></td>
         </tr>
         <tr>
-            <td>手写代码｜TS泛型</td>
+            <td rowspan="2">手写代码｜TS泛型</td>
             <td><a href="/lib/手写代码/TypeScript泛型/Exclude.ts">Exclude</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Extract.ts">Extract</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Omit.ts">Omit</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Parameters.ts">Parameters</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Partial.ts">Partial</a></td>
+        </tr>
+        <tr>
             <td><a href="/lib/手写代码/TypeScript泛型/Pick.ts">Pick</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Readonly.ts">Readonly</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Record.ts">Record</a></td>
@@ -60,6 +64,12 @@
             <td>时间切片</td>
             <td>Fiber</td>
             <td>Hook</td>
+        </tr>
+        <tr>
+            <td>Redux</td>
+            <td>Redux-thunk</td>
+            <td>Redux-saga</td>
+            <td>DVA</td>
         </tr>
     </tbody>
 </table>

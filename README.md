@@ -31,6 +31,7 @@
             <td><a href="/lib/JavaScript基础/箭头函数">箭头函数</a></td>
             <td><a href="/lib/JavaScript基础/异步">异步</a></td>
             <td>事件循环</td>
+            <td></td>
         </tr>
         <tr>
             <td rowspan="2">手写代码｜常规</td>
@@ -56,6 +57,7 @@
             <td><a href="/lib/手写代码/TypeScript泛型/Readonly.ts">Readonly</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Record.ts">Record</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Required.ts">Required</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>React</td>
@@ -70,6 +72,8 @@
             <td>Redux-thunk</td>
             <td>Redux-saga</td>
             <td>DVA</td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>

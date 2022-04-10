@@ -38,11 +38,23 @@
             <td><a href="/lib/手写代码/常规/throttle">throttle</a></td>
             <td><a href="/lib/手写代码/常规/instanceof">instanceof</a></td>
             <td><a href="/lib/手写代码/常规/bind">bind</a></td>
+            <td><a href="/lib/手写代码/常规/call">call</a></td>
+            <td><a href="/lib/手写代码/常规/apply">apply</a></td>
+        </tr>
+        <tr>
+            <td>手写代码｜TS泛型</td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Exclude">Exclude</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Extract">Extract</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Omit">Omit</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Parameters">Parameters</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Partial">Partial</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Pick">Pick</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Readonly">Readonly</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Record">Record</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Required">Required</a></td>
         </tr>
     </tbody>
 </table>
-
-#### 常规
 
 #### TypeScript 泛型
 

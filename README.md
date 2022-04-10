@@ -23,7 +23,7 @@
             <td><a href="/lib/JavaScript基础/变量环境">变量环境</a></td>
             <td><a href="/lib/JavaScript基础/调用栈">调用栈</a></td>
             <td><a href="/lib/JavaScript基础/垃圾回收机制">垃圾回收机制</a></td>
-            <td>暂时性死区</td>
+            <td><a href="/lib/JavaScript基础/暂时性死区">暂时性死区</a></td>
             <td>变量提升</td>
         </tr>
         <tr>

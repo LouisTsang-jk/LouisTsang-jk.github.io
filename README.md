@@ -7,7 +7,7 @@
 <table>
     <thead>
         <tr>
-            <th colspan="2">知识分类</th>
+            <th>知识分类</th>
         </tr>
     </thead>
     <tbody>
@@ -43,20 +43,26 @@
         </tr>
         <tr>
             <td>手写代码｜TS泛型</td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Exclude">Exclude</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Extract">Extract</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Omit">Omit</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Parameters">Parameters</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Partial">Partial</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Pick">Pick</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Readonly">Readonly</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Record">Record</a></td>
-            <td><a href="/lib/手写代码/TypeScript泛型/Required">Required</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Exclude.ts">Exclude</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Extract.ts">Extract</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Omit.ts">Omit</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Parameters.ts">Parameters</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Partial.ts">Partial</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Pick.ts">Pick</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Readonly.ts">Readonly</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Record.ts">Record</a></td>
+            <td><a href="/lib/手写代码/TypeScript泛型/Required.ts">Required</a></td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>虚拟DOM</td>
+            <td>合成事件</td>
+            <td>时间切片</td>
+            <td>Fiber</td>
+            <td>Hook</td>
         </tr>
     </tbody>
 </table>
-
-#### TypeScript 泛型
 
 ---
 
@@ -73,24 +79,12 @@
 #### 错误监控
 
 #### 性能优化
-
+---
 ### Webpack
 
 ---
 
 ### Vite
-
----
-
-### React
-
-#### 虚拟 DOM
-
-#### 合成事件
-
-#### Fiber
-
-#### Hook
 
 ---
 

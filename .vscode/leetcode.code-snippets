@@ -1,0 +1,19 @@
+{
+	// Mac环境下使用auto complete(fn + control + space)
+	"Create Leetcode Template": {
+		"scope": "markdown",
+		"prefix": "leetcode",
+		"body": [
+			"# $1",
+			"",
+			"## 题目",
+			"> [$1]($2)",
+			"",
+			"## 答案",
+			"```",
+			"$3",
+			"```"
+		],
+		"description": "创建Leetcode模版(Markdown)"
+	}
+}

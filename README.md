@@ -75,10 +75,34 @@
             <td></td>
             <td></td>
         </tr>
+        <tr>
+            <td><a href="/lib/设计模式">设计模式</a></td>
+            <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
 ---
+
+<table>
+    <thead>
+        <tr>
+            <th>算法</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="/lib/设计模式">设计模式</a></td>
+            <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 ### CSS 基础
 

@@ -31,7 +31,7 @@
             <td><a href="/lib/JavaScript基础/箭头函数">箭头函数</a></td>
             <td><a href="/lib/JavaScript基础/异步">异步</a></td>
             <td><a href="/lib/JavaScript基础/事件循环">事件循环</a></td>
-            <td></td>
+            <td>深克隆</td>
         </tr>
         <tr>
             <td rowspan="2">手写代码｜常规</td>
@@ -93,9 +93,9 @@
         </tr>
         <tr>
             <td>CDN</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>缓存</td>
+            <td>存储</td>
+            <td>跨域</td>
             <td></td>
         </tr>
         <tr>
@@ -109,14 +109,21 @@
         <tr>
             <td>Webpack</td>
             <td>Vite</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CI</td>
+            <td>CD</td>
+            <td>微前端</td>
         </tr>
         <tr>
             <td>安全</td>
             <td>XSS</td>
             <td>CSRF</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>盒子模型</td>
+            <td>BFC</td>
             <td></td>
             <td></td>
         </tr>

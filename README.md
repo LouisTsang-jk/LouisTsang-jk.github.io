@@ -61,7 +61,7 @@
         </tr>
         <tr>
             <td>React</td>
-            <td>虚拟DOM</td>
+            <td><a href="/lib/JavaScript基础/虚拟DOM">虚拟DOM</a></td>
             <td>合成事件</td>
             <td>时间切片</td>
             <td>Fiber</td>

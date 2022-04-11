@@ -30,7 +30,7 @@
             <td><a href="/lib/JavaScript基础/This">This</a></td>
             <td><a href="/lib/JavaScript基础/箭头函数">箭头函数</a></td>
             <td><a href="/lib/JavaScript基础/异步">异步</a></td>
-            <td>事件循环</td>
+            <td><a href="/lib/JavaScript基础/事件循环">事件循环</a></td>
             <td></td>
         </tr>
         <tr>
@@ -98,6 +98,28 @@
             <td></td>
             <td></td>
         </tr>
+        <tr>
+            <td rowspan="2">工程化</td>
+            <td>性能指标</td>
+            <td>性能监控</td>
+            <td>错误监控</td>
+            <td>性能优化</td>
+            <td>埋点</td>
+        </tr>
+        <tr>
+            <td>Webpack</td>
+            <td>Vite</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>安全</td>
+            <td>XSS</td>
+            <td>CSRF</td>
+            <td></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -125,52 +147,11 @@
 
 ---
 
-### 工程化
-
-#### 性能监控
-
-#### 性能指标
-
-#### 错误监控
-
-#### 性能优化
----
-### Webpack
-
----
-
-### Vite
-
----
-
 ### Redux
-
----
-
-### 优化
-
-#### 监控手段
-
-##### 性能监控
-
-##### 异常监控
-
-#### 措施
 
 ---
 
 ### 计算机
 
-#### 网络
-
-##### TCP/UDP
-
-##### HTTP
-
-##### HTTPS
-
 #### [设计模式](/lib/设计模式)
-
-#### 算法
-
 #### 安全

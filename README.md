@@ -7,7 +7,7 @@
 <table>
     <thead>
         <tr>
-            <th>知识分类</th>
+            <th colspan="6">知识分类</th>
         </tr>
     </thead>
     <tbody>
@@ -81,6 +81,7 @@
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
@@ -95,8 +96,9 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="/lib/设计模式">设计模式</a></td>
-            <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
+            <td><a href="/lib/算法/字符串/最后一个单词的长度">最后一个单词的长度</a></td>
+            <td></td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>

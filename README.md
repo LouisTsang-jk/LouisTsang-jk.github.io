@@ -83,6 +83,21 @@
             <td></td>
             <td></td>
         </tr>
+        <tr>
+            <td rowspan="2">网络</td>
+            <td>TCP</td>
+            <td>UDP</td>
+            <td>HTTP</td>
+            <td>HTTPS</td>
+            <td>DNS</td>
+        </tr>
+        <tr>
+            <td>CDN</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -96,8 +111,8 @@
     </thead>
     <tbody>
         <tr>
+            <td>字符串</td>
             <td><a href="/lib/算法/字符串/最后一个单词的长度">最后一个单词的长度</a></td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>

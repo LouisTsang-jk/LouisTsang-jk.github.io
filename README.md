@@ -68,11 +68,11 @@
             <td>Hook</td>
         </tr>
         <tr>
+            <td>Flux</td>
             <td>Redux</td>
             <td>Redux-thunk</td>
             <td>Redux-saga</td>
             <td>DVA</td>
-            <td></td>
             <td></td>
         </tr>
         <tr>
@@ -109,9 +109,9 @@
         <tr>
             <td>Webpack</td>
             <td>Vite</td>
-            <td>CI</td>
-            <td>CD</td>
+            <td><a href="/lib/工程化/CICD工作流">CI/CD</a></td>
             <td>微前端</td>
+            <td></td>
         </tr>
         <tr>
             <td>安全</td>

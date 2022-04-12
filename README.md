@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan="3">JavaScript基础</td>
+            <td rowspan="4">JavaScript基础</td>
             <td><a href="/lib/JavaScript基础/变量类型">变量类型</a></td>
             <td><a href="/lib/JavaScript基础/原型链">原型链</a></td>
             <td><a href="/lib/JavaScript基础/闭包">闭包</a></td>
@@ -34,6 +34,13 @@
             <td>深克隆</td>
         </tr>
         <tr>
+            <td><a href="/lib/JavaScript基础/继承">继承</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td rowspan="2">手写代码｜常规</td>
             <td><a href="/lib/手写代码/常规/debounce">debounce</a></td>
             <td><a href="/lib/手写代码/常规/throttle">throttle</a></td>
@@ -43,6 +50,10 @@
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/apply">apply</a></td>
+            <td><a href="/lib/手写代码/常规/EventEmitter">发布订阅</a></td>
+            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/常规/apply"></a></td>
         </tr>
         <tr>
             <td rowspan="2">手写代码｜TS泛型</td>

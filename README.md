@@ -93,7 +93,7 @@
         </tr>
         <tr>
             <td>CDN</td>
-            <td>缓存</td>
+            <td><a href="/lib/网络/缓存">缓存</a></td>
             <td>存储</td>
             <td>跨域</td>
             <td></td>
@@ -124,8 +124,8 @@
             <td>CSS</td>
             <td>盒子模型</td>
             <td>BFC</td>
-            <td></td>
-            <td></td>
+            <td>流式布局</td>
+            <td>弹性布局</td>
         </tr>
     </tbody>
 </table>
@@ -149,16 +149,3 @@
         </tr>
     </tbody>
 </table>
-
-### CSS 基础
-
----
-
-### Redux
-
----
-
-### 计算机
-
-#### [设计模式](/lib/设计模式)
-#### 安全

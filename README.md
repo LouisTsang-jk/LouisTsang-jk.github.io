@@ -50,8 +50,8 @@
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/apply">apply</a></td>
-            <td><a href="/lib/手写代码/常规/EventEmitter">发布订阅</a></td>
-            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/常规/EventEmitter">发布订阅模式</a></td>
+            <td><a href="/lib/手写代码/常规/Notifier">观察者模式</a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>
         </tr>

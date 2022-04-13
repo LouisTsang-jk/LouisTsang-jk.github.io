@@ -6,5 +6,5 @@
 
 ![dead-zone](./dead-zone.png)
 
-> [ECMA | Let and Const Declarations](https://tc39.es/ecma262/#sec-let-and-const-declarations)      
-> [ECMA | Static Semantics: Early Errors](https://tc39.es/ecma262/#sec-let-and-const-declarations-static-semantics-early-errors)
+[ECMA | Let and Const Declarations](https://tc39.es/ecma262/#sec-let-and-const-declarations)      
+[ECMA | Static Semantics: Early Errors](https://tc39.es/ecma262/#sec-let-and-const-declarations-static-semantics-early-errors)

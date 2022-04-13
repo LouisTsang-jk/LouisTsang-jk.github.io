@@ -35,7 +35,7 @@
         </tr>
         <tr>
             <td><a href="/lib/JavaScript基础/继承">继承</a></td>
-            <td></td>
+            <td>事件流</td>
             <td></td>
             <td></td>
             <td></td>
@@ -79,7 +79,7 @@
         </tr>
         <tr>
             <td>React</td>
-            <td><a href="/lib/JavaScript基础/虚拟DOM">虚拟DOM</a></td>
+            <td><a href="/lib/库/React/虚拟DOM">虚拟DOM</a></td>
             <td>合成事件</td>
             <td>时间切片</td>
             <td>Fiber</td>
@@ -167,3 +167,13 @@
         </tr>
     </tbody>
 </table>
+
+---
+## 计划
+update 2022/4/13
+[ ] 事件循环(补充)   
+[ ] 垃圾回收机制(补充)   
+[ ] TS泛型(整理)     
+[ ] React     
+[ ] 网络     
+[ ] 工程化     

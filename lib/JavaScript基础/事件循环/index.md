@@ -17,9 +17,12 @@ function bar(x) {
 console.log(bar(7)); // 返回 42
 ```
 - step1
-![debugger_call_stack_step1](./debugger_call_stack.jpeg)
+![debugger_call_stack_step1](./debugger_call_stack_step1.jpeg)
 - step2
 ![debugger_call_stack_step2](./debugger_call_stack_step2.jpeg)
+
+## 事件队列
+JavaScript运行时有一个队列来存放待处理消息的消息队列。
 
 ## 流程
 

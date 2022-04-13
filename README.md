@@ -36,7 +36,7 @@
         <tr>
             <td><a href="/lib/JavaScript基础/继承">继承</a></td>
             <td>事件流</td>
-            <td></td>
+            <td>关键渲染路径(CRP)</td>
             <td></td>
             <td></td>
         </tr>

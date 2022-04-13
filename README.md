@@ -56,6 +56,13 @@
             <td><a href="/lib/手写代码/常规/apply"></a></td>
         </tr>
         <tr>
+            <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
+            <td>冒泡算法</td>
+            <td><a href="/lib/手写代码/排序/quickSort">快速排序</a></td>
+            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/常规/apply"></a></td>
+        </tr>
+        <tr>
             <td rowspan="2">手写代码｜TS泛型</td>
             <td><a href="/lib/手写代码/TypeScript泛型/Exclude.ts">Exclude</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Extract.ts">Extract</a></td>

@@ -58,7 +58,7 @@
         <tr>
             <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
             <td>冒泡算法</td>
-            <td><a href="/lib/手写代码/排序/quickSort">快速排序</a></td>
+            <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>
         </tr>

@@ -41,7 +41,7 @@
             <td></td>
         </tr>
         <tr>
-            <td rowspan="2">手写代码｜常规</td>
+            <td rowspan="4">手写代码｜常规</td>
             <td><a href="/lib/手写代码/常规/debounce">debounce</a></td>
             <td><a href="/lib/手写代码/常规/throttle">throttle</a></td>
             <td><a href="/lib/手写代码/常规/instanceof">instanceof</a></td>
@@ -52,8 +52,22 @@
             <td><a href="/lib/手写代码/常规/apply">apply</a></td>
             <td><a href="/lib/手写代码/常规/EventEmitter">发布订阅模式</a></td>
             <td><a href="/lib/手写代码/常规/Notifier">观察者模式</a></td>
-            <td><a href="/lib/手写代码/常规/apply"></a></td>
-            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/常规/404">*flat</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Promise</a></td>
+        </tr>
+        <tr>
+            <td><a href="/lib/手写代码/常规/404">*new</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Class</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Object.is</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Object.create</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
+        </tr>
+        <tr>
+            <td><a href="/lib/手写代码/常规/404">*AsyncPool</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Compose(Koa)</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Compose(Redux)</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Object.create</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
@@ -133,8 +147,15 @@
         </tr>
         <tr>
             <td>安全</td>
-            <td>XSS</td>
-            <td>CSRF</td>
+            <td><a href="/lib/安全/XSS">XSS</a></td>
+            <td><a href="/lib/安全/CSRF">CSRF</a></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="/lib/图形学">图形学</a></td>
+            <td><a href="/lib/图形学/WebGL">WebGL</a></td>
+            <td><a href="/lib/图形学/WebGL/Three">Three.js</a></td>
             <td></td>
             <td></td>
         </tr>

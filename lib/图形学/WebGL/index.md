@@ -8,4 +8,4 @@
 类C的着色器编程语言，又分为顶点着色器和片元着色器
 
 # 参考
-[](https://juejin.cn/post/6875115400154054669#heading-5)
+[乘风破浪的WebGL系列-初识WebGL](https://juejin.cn/post/6875115400154054669#heading-5)

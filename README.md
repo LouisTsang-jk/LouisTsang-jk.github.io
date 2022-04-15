@@ -53,21 +53,21 @@
             <td><a href="/lib/手写代码/常规/EventEmitter">发布订阅模式</a></td>
             <td><a href="/lib/手写代码/常规/Notifier">观察者模式</a></td>
             <td><a href="/lib/手写代码/常规/flat">flat</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Promise</a></td>
+            <td><a href="/lib/手写代码/常规/Promise">Promise</a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/常规/404">*new</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Class</a></td>
+            <td><a href="/lib/手写代码/常规/new">new</a></td>
+            <td><a href="/lib/手写代码/常规/AsyncPool">*AsyncPool</a></td>
             <td><a href="/lib/手写代码/常规/404">*Object.is</a></td>
             <td><a href="/lib/手写代码/常规/404">*Object.create</a></td>
             <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/常规/404">*AsyncPool</a></td>
+            <td><a href="/lib/手写代码/常规/404">*</a></td>
             <td><a href="/lib/手写代码/常规/404">*Compose(Koa)</a></td>
             <td><a href="/lib/手写代码/常规/404">*Compose(Redux)</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Object.create</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
+            <td><a href="/lib/手写代码/常规/404"></a></td>
+            <td><a href="/lib/手写代码/常规/404"></a></td>
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>

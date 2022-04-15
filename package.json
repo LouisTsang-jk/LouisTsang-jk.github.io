@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "LouisTsang学习日志",
   "main": "README.md",
-  "type": "module",
   "directories": {
     "lib": "lib"
   },
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/LouisTsang-jk/LouisTsang-jk.github.io#readme",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "promises-aplus-tests": "^2.1.2"
   }
 }

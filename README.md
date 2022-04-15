@@ -63,15 +63,15 @@
             <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/常规/404">*</a></td>
             <td><a href="/lib/手写代码/常规/404">*Compose(Koa)</a></td>
             <td><a href="/lib/手写代码/常规/404">*Compose(Redux)</a></td>
+            <td><a href="/lib/手写代码/常规/404"></a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
-            <td>冒泡算法</td>
+            <td><a href="/lib/手写代码/排序/冒泡算法">冒泡算法</a></td>
             <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>
             <td><a href="/lib/手写代码/常规/apply"></a></td>

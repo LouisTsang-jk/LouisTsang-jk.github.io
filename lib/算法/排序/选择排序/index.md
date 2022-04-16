@@ -1,8 +1,8 @@
-# 快速排序
+# 选择排序
 
 ## Code
 
-[quickSort.js](./index.js)
+[selectionSort.js](./index.js)
 
 ## Test Unit
 

@@ -73,8 +73,13 @@
             <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
             <td><a href="/lib/手写代码/排序/冒泡算法">冒泡算法</a></td>
             <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
-            <td><a href="/lib/手写代码/常规/apply"></a></td>
-            <td><a href="/lib/手写代码/常规/apply"></a></td>
+            <td><a href="/lib/手写代码/排序/插入排序">*插入排序</a></td>
+            <td><a href="/lib/手写代码/排序/希尔排序">*希尔排序</a></td>
+            <td><a href="/lib/手写代码/排序/归并排序">*归并排序</a></td>
+            <td><a href="/lib/手写代码/排序/堆排序">*堆排序</a></td>
+            <td><a href="/lib/手写代码/排序/计数排序">*计数排序</a></td>
+            <td><a href="/lib/手写代码/排序/桶排序">*桶排序</a></td>
+            <td><a href="/lib/手写代码/排序/基数排序">*基数排序</a></td>
         </tr>
         <tr>
             <td rowspan="2">手写代码｜TS泛型</td>

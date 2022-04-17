@@ -117,12 +117,42 @@
             <td></td>
         </tr>
         <tr>
-            <td><a href="/lib/设计模式">设计模式</a></td>
+            <td><a href="/lib/设计模式">设计模式 | 创建型</a></td>
             <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
+            <td>工厂方法</td>
+            <td>抽象工厂</td>
+            <td>生成器</td>
+            <td>原型</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><a href="/lib/设计模式">设计模式 | 结构型</a></td>
+            <td>适配器</td>
+            <td>桥接</td>
+            <td>组合</td>
+            <td>装饰</td>
+            <td>外观</td>
+        </tr>
+        <tr>
+            <td>享元</td>
+            <td>代理</td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><a href="/lib/设计模式">设计模式 | 行为</a></td>
+            <td>责任链</td>
+            <td>命令</td>
+            <td>迭代器</td>
+            <td>中介者</td>
+            <td>备忘录</td>
+        </tr>
+        <tr>
+            <td>观察者</td>
+            <td>状态</td>
+            <td>策略</td>
+            <td>模版方法</td>
+            <td>访问者</td>
         </tr>
         <tr>
             <td rowspan="2">网络</td>

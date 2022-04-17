@@ -70,7 +70,7 @@
             <td><a href="/lib/手写代码/常规/404"></a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/常规/apply">排序算法</a></td>
+            <td rowspan="2"><a href="/lib/手写代码/常规/apply">排序算法</a></td>
             <td><a href="/lib/手写代码/排序/冒泡算法">冒泡算法</a></td>
             <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
             <td><a href="/lib/手写代码/排序/插入排序">*插入排序</a></td>
@@ -108,6 +108,7 @@
             <td>Hook</td>
         </tr>
         <tr>
+            <td>数据流</td>
             <td>Flux</td>
             <td>Redux</td>
             <td>Redux-thunk</td>

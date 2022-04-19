@@ -59,7 +59,7 @@
             <td><a href="/lib/手写代码/常规/new">new</a></td>
             <td><a href="/lib/手写代码/常规/AsyncPool">*AsyncPool</a></td>
             <td><a href="/lib/手写代码/常规/404">Object.is</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Object.create</a></td>
+            <td><a href="/lib/手写代码/常规/404">Object.create</a></td>
             <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
         </tr>
         <tr>

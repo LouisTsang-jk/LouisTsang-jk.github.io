@@ -58,9 +58,9 @@
         <tr>
             <td><a href="/lib/手写代码/常规/new">new</a></td>
             <td><a href="/lib/手写代码/常规/AsyncPool">*AsyncPool</a></td>
-            <td><a href="/lib/手写代码/常规/404">Object.is</a></td>
-            <td><a href="/lib/手写代码/常规/404">Object.create</a></td>
-            <td><a href="/lib/手写代码/常规/404">*Object.assign</a></td>
+            <td><a href="/lib/手写代码/常规/Object.is">Object.is</a></td>
+            <td><a href="/lib/手写代码/常规/Object.create">Object.create</a></td>
+            <td><a href="/lib/手写代码/常规/Object.assign">Object.assign</a></td>
         </tr>
         <tr>
             <td><a href="/lib/手写代码/常规/404">*Compose(Koa)</a></td>
@@ -114,7 +114,6 @@
             <td>Redux-thunk</td>
             <td>Redux-saga</td>
             <td>DVA</td>
-            <td></td>
         </tr>
         <tr>
             <td rowspan="2">网络</td>

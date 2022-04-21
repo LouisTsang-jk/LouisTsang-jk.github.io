@@ -179,7 +179,7 @@
     </thead>
     <tbody>
         <tr>
-            <td>字符串</td>
+            <td class="arrow">字符串</td>
             <td><a href="/lib/算法/字符串/最后一个单词的长度">最后一个单词的长度</a></td>
             <td><a href="/lib/算法/字符串/验证回文串">验证回文串</a></td>
             <td><a href="/lib/算法/字符串/反转字符串">反转字符串</a></td>

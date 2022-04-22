@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+[leetcode｜二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
 > 难度: 简单
 

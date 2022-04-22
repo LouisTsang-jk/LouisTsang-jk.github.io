@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
+[leetcode｜二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 
 > 难度:简单
 

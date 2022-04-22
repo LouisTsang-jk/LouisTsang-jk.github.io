@@ -1,7 +1,7 @@
 <link href="./style.css" rel="stylesheet" />
 
 ## LouisTsang 的学习记录
-> 从[Github | Web知识日志](https://github.com/LouisTsang-jk/Learn-Web)整理归类
+> 从[Github｜Web知识日志](https://github.com/LouisTsang-jk/Learn-Web)整理归类
 ---
 
 <table>
@@ -275,7 +275,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="/lib/设计模式">设计模式 | 创建型</a></td>
+            <td><a href="/lib/设计模式">设计模式｜创建型</a></td>
             <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
             <td>工厂方法</td>
             <td>抽象工厂</td>
@@ -283,7 +283,7 @@
             <td>原型</td>
         </tr>
         <tr>
-            <td rowspan="2"><a href="/lib/设计模式">设计模式 | 结构型</a></td>
+            <td rowspan="2"><a href="/lib/设计模式">设计模式｜结构型</a></td>
             <td>适配器</td>
             <td>桥接</td>
             <td>组合</td>
@@ -298,7 +298,7 @@
             <td></td>
         </tr>
         <tr>
-            <td rowspan="2"><a href="/lib/设计模式">设计模式 | 行为</a></td>
+            <td rowspan="2"><a href="/lib/设计模式">设计模式｜行为</a></td>
             <td>责任链</td>
             <td>命令</td>
             <td>迭代器</td>

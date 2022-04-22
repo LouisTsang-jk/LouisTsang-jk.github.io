@@ -2,7 +2,7 @@
 
 ## 题目
 
-[字符串相加 | leetcode](https://leetcode-cn.com/problems/add-strings/)
+[字符串相加｜leetcode](https://leetcode-cn.com/problems/add-strings/)
 
 > 难度: 简单
 

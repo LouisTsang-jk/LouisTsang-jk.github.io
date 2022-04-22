@@ -11,4 +11,4 @@
 - React    
   在`React`中，编写的`JSX`代码会被转译成对应`React.createElement`代码。
   ![jsx](./jsx.jpeg)
-  > [babel | try](https://babeljs.io/repl)
+  > [babel｜try](https://babeljs.io/repl)

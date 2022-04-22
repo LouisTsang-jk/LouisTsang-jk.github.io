@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+[leetcode｜合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
 ## 题解/思路
 

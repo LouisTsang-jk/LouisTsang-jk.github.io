@@ -2,7 +2,7 @@
 
 ## 出处
 
-[平衡二叉树 | leetcode](https://leetcode-cn.com/problems/balanced-binary-tree/)
+[平衡二叉树｜leetcode](https://leetcode-cn.com/problems/balanced-binary-tree/)
 
 > 难度: 简单
 

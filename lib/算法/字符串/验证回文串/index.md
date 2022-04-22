@@ -2,7 +2,7 @@
 
 ## 题目
 
-[leetcode | 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+[leetcode｜验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
 
 > 难度: 简单
 

@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+[leetcode｜相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
 ## 题解/思路
 

@@ -16,4 +16,4 @@
 ## 持续交付(Continuous Delivery)
 ## 持续部署(Continuous Deployment)
 # 参考
-[简书 | 谈谈持续集成，持续交付，持续部署之间的区别](https://www.jianshu.com/p/2c6ebe34744a)
+[简书｜谈谈持续集成，持续交付，持续部署之间的区别](https://www.jianshu.com/p/2c6ebe34744a)

@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+[leetcode｜从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
 
 > 难度:简单
 

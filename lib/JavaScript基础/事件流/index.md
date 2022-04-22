@@ -5,7 +5,7 @@
 - 捕获阶段(`Capture Phase`)
 - 目标阶段(`Target Phase`)
 - 冒泡阶段(`Bubbling Phase`)
-  ![MDN | 事件介绍](./bubbling-capturing.png)
+  ![MDN｜事件介绍](./bubbling-capturing.png)
 
 ## 类型
 

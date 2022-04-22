@@ -1,0 +1,19 @@
+# 深克隆
+## 思路
+### 数组
+### 循环引用
+使用`WeakMap`存储引用类型
+### 特殊类型
+- function
+- null
+### 可遍历类型
+- Object
+- Array
+- Map
+- Set
+### 不可遍历类型
+- Boolean
+- Number
+- String
+- Error
+- Symbol

@@ -2,7 +2,7 @@
 
 ## 出处
 
-[相同的树 | leetcode](https://leetcode-cn.com/problems/same-tree/)
+[相同的树｜leetcode](https://leetcode-cn.com/problems/same-tree/)
 
 > 难度:简单
 

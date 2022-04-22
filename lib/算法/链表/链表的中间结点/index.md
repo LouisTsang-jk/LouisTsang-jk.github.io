@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+[leetcode｜链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 ## 题解/思路
 
 ### 快慢指针

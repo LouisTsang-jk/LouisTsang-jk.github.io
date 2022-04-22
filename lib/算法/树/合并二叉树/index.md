@@ -2,7 +2,7 @@
 
 ## 出处
 
-[合并二叉树 | leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/)
+[合并二叉树｜leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
 > 难度: 简单
 

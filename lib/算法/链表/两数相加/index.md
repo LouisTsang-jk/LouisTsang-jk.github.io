@@ -2,7 +2,7 @@
 
 ## 出处
 
-[环形链表 | leetcode](https://leetcode-cn.com/problems/add-two-numbers/)
+[环形链表｜leetcode](https://leetcode-cn.com/problems/add-two-numbers/)
 
 ## 题解/思路
 

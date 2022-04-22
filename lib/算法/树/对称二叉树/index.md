@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+[leetcode｜对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 
 > 难度: 简单
 

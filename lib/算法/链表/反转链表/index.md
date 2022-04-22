@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+[leetcode｜反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
 ## 题解/思路
 

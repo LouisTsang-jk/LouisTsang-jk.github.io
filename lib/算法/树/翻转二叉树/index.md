@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+[leetcode｜翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 > 难度: 简单
 

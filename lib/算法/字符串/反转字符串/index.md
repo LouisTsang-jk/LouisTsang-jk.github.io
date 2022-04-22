@@ -3,7 +3,7 @@
 
 ## 题目
 
-[leetcode | 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+[leetcode｜反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 > 难度: 简单
 
 ## 题解/思路

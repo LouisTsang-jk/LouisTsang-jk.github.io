@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 路径总和](https://leetcode-cn.com/problems/path-sum/)
+[leetcode｜路径总和](https://leetcode-cn.com/problems/path-sum/)
 
 > 难度: 简单
 

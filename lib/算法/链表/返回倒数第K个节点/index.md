@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 返回倒数第k个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
+[leetcode｜返回倒数第k个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
 
 > 难度: 简单
 

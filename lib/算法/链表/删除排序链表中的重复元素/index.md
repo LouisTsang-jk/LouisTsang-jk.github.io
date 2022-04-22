@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+[leetcode｜删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 
 > 难度: 简单
 

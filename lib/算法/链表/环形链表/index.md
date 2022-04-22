@@ -2,7 +2,7 @@
 
 ## 出处
 
-[leetcode | 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+[leetcode｜环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 ## 题解/思路
 

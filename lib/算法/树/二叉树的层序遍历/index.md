@@ -2,7 +2,7 @@
 
 ## 出处
 
-[二叉树的层序遍历 | leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+[二叉树的层序遍历｜leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
 > 难度: 中等
 

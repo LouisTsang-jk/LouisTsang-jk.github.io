@@ -31,11 +31,11 @@
             <td><a href="/lib/JavaScript基础/箭头函数">箭头函数</a></td>
             <td><a href="/lib/JavaScript基础/异步">异步</a></td>
             <td><a href="/lib/JavaScript基础/事件循环">事件循环</a></td>
-            <td>深克隆</td>
+            <td><a href="/lib/JavaScript基础/深克隆">深克隆</a></td>
         </tr>
         <tr>
             <td><a href="/lib/JavaScript基础/继承">继承</a></td>
-            <td>事件流</td>
+            <td><a href="/lib/JavaScript基础/事件流">事件流</a></td>
             <td><a href="/lib/JavaScript基础/关键渲染路径">关键渲染路径(CRP)</a></td>
             <td><a href="/lib/JavaScript基础/模块化">模块化</a></td>
             <td></td>

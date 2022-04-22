@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propagation Demo</title>
+</head>
+<body>
+  <div class="target">
+    <p class="ele">点击这段文字</p>
+  </div>
+  <div>
+    <p>stopPropagation/stopImmediatePropagation都在第二个监听函数</p>
+    <p>
+      <span>stopPropagation:</span>
+      <input type="checkbox" id="stopPropagation" />
+    </p>
+    <p>
+      <span>stopImmediatePropagation:</span>
+      <input type="checkbox" id="stopImmediatePropagation" />
+    </p>
+  </div>
+  <script>
+    const ele = document.querySelector('.ele')
+    const target = document.querySelector(".target")
+    ele.addEventListener("click", (event) => {
+      alert("我是p元素上被绑定的第一个监听函数");
+    }, false);
+
+    ele.addEventListener("click", (event) => {
+      const {checked: checkedStopPropagation} = document.querySelector('#stopPropagation')
+      const {checked: checkedStopImmediatePropagation} = document.querySelector('#stopImmediatePropagation')
+      alert("我是p元素上被绑定的第二个监听函数");
+      checkedStopPropagation && event.stopPropagation();
+      checkedStopImmediatePropagation && event.stopImmediatePropagation();
+    }, false);
+
+    ele.addEventListener("click",(event) => {
+      alert("我是p元素上被绑定的第三个监听函数");
+    }, false);
+
+    target.addEventListener("click", (event) => {
+      alert("我是div元素,我是p元素的上层元素");
+    }, false);
+  </script>
+</body>
+</html>

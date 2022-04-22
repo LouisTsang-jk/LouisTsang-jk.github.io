@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegation</title>
+  </head>
+  <body>
+    <p>请点击下列文字：</p>
+    <ul>
+      <li>Target: 1</li>
+      <li>Target: 2</li>
+      <li>Target: 3</li>
+      <li>Target: 4</li>
+    </ul>
+    <script>
+      const ul = document.querySelector("ul");
+      ul.addEventListener(
+        "click",
+        (event) => {
+          alert(event.target.innerHTML);
+        },
+        false
+      );
+    </script>
+  </body>
+</html>

@@ -86,6 +86,7 @@ function FiberNode(
   > 同时两棵树的 Fiber 节点会通过`alternate`属性连接起来。
 
 #### render
+> 该阶段异步
 ##### beginWork
 从`rootFiber`开始深度优先遍历，创建传入的`FiberNode`的子节点，当遍历到叶节点。
 - mount    
@@ -94,10 +95,31 @@ function FiberNode(
 如果存在current，并满足**一定条件**的时候可以复用。
   1. `props`和`fiber.type`不变
   2. Fiber节点优先度不够
-> 可以理解为递归的"递"阶段
+> 可以理解为递归的"递"阶段    
+
+> effectTag: render阶段后通知`Renderer`需要执行的DOM操作(PlacementAndUpdate、Deletion)
 ##### completeWork
+- mount    
+  1. 生成对应DOM节点
+  2. 插入子孙DOM节点
+  3. `处理props`
+- update   
+当前阶段下已存在DOM节点，主要是`处理props`
+> effectList: 为了提高性能，会在此阶段生成effectList(单向链表)作为DOM操作的依据
 
 #### commit
+> 该阶段同步
+里面又分三个阶段：
+- `before mutation阶段`     
+执行DOM操作前，遍历effectList并调用`commitBeforeMutationEffects`函数。
+  - commitBeforeMutationEffects
+    1. 处理DOM渲染/删除后的`autoFocus`、`blur`逻辑
+    2. 调用`getSnapshotBeforeUpdate`生命周期函数
+    3. 调度`useEffect`
+- `mutation阶段`   
+执行DOM操作
+- `layout阶段`    
+执行DOM操作后
 
 # 参考
 

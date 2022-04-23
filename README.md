@@ -5,7 +5,7 @@
 
 | Emoji | Description |
 | ---- | -------- |
-|❌| 未开始  |
+|*| 未开始  |
 |🤯| 进行中 |
 |🤨| 待补充/存疑 |
 ---
@@ -44,7 +44,7 @@
             <td><a href="/lib/JavaScript基础/事件流">事件流</a></td>
             <td><a href="/lib/JavaScript基础/关键渲染路径">关键渲染路径(CRP)</a></td>
             <td><a href="/lib/JavaScript基础/模块化">模块化</a></td>
-            <td><a href="/lib/JavaScript基础/内存泄露">❌内存泄露</a></td>
+            <td><a href="/lib/JavaScript基础/内存泄露">*内存泄露</a></td>
         </tr>
         <tr>
             <td rowspan="4">手写代码｜常规</td>
@@ -69,8 +69,8 @@
             <td><a href="/lib/手写代码/常规/Object.assign">Object.assign</a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/常规/404">❌Compose(Koa)</a></td>
-            <td><a href="/lib/手写代码/常规/404">❌Compose(Redux)</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Compose(Koa)</a></td>
+            <td><a href="/lib/手写代码/常规/404">*Compose(Redux)</a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
@@ -80,15 +80,15 @@
             <td><a href="/lib/手写代码/排序/冒泡算法">冒泡算法</a></td>
             <td><a href="/lib/手写代码/排序/选择算法">选择算法</a></td>
             <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
-            <td><a href="/lib/手写代码/排序/插入排序">❌插入排序</a></td>
-            <td><a href="/lib/手写代码/排序/希尔排序">❌希尔排序</a></td>
+            <td><a href="/lib/手写代码/排序/插入排序">*插入排序</a></td>
+            <td><a href="/lib/手写代码/排序/希尔排序">*希尔排序</a></td>
         </tr>
         <tr>
-            <td><a href="/lib/手写代码/排序/归并排序">❌归并排序</a></td>
-            <td><a href="/lib/手写代码/排序/堆排序">❌堆排序</a></td>
-            <td><a href="/lib/手写代码/排序/计数排序">❌计数排序</a></td>
-            <td><a href="/lib/手写代码/排序/桶排序">❌桶排序</a></td>
-            <td><a href="/lib/手写代码/排序/基数排序">❌基数排序</a></td>
+            <td><a href="/lib/手写代码/排序/归并排序">*归并排序</a></td>
+            <td><a href="/lib/手写代码/排序/堆排序">*堆排序</a></td>
+            <td><a href="/lib/手写代码/排序/计数排序">*计数排序</a></td>
+            <td><a href="/lib/手写代码/排序/桶排序">*桶排序</a></td>
+            <td><a href="/lib/手写代码/排序/基数排序">*基数排序</a></td>
         </tr>
         <tr>
             <td rowspan="2">手写代码｜TS泛型</td>
@@ -108,47 +108,47 @@
         <tr>
             <td>React</td>
             <td><a href="/lib/库/React/虚拟DOM">虚拟DOM</a></td>
-            <td>❌合成事件</td>
-            <td>❌时间切片</td>
+            <td>*合成事件</td>
+            <td>*时间切片</td>
             <td><a href="/lib/库/React/Fiber">Fiber</a></td>
-            <td>❌Hook</td>
+            <td>*Hook</td>
         </tr>
         <tr>
             <td>数据流</td>
-            <td>❌Flux</td>
-            <td>❌Redux</td>
-            <td>❌Redux-thunk</td>
-            <td>❌Redux-saga</td>
-            <td>❌DVA</td>
+            <td>*Flux</td>
+            <td>*Redux</td>
+            <td>*Redux-thunk</td>
+            <td>*Redux-saga</td>
+            <td>*DVA</td>
         </tr>
         <tr>
             <td rowspan="2">网络</td>
-            <td>❌TCP</td>
-            <td>❌UDP</td>
-            <td>❌HTTP</td>
-            <td>❌HTTPS</td>
-            <td>❌DNS</td>
+            <td>*TCP</td>
+            <td>*UDP</td>
+            <td>*HTTP</td>
+            <td>*HTTPS</td>
+            <td>*DNS</td>
         </tr>
         <tr>
-            <td>❌CDN</td>
+            <td>*CDN</td>
             <td><a href="/lib/网络/缓存">缓存</a></td>
-            <td>❌存储</td>
-            <td>❌跨域</td>
+            <td>*存储</td>
+            <td>*跨域</td>
             <td></td>
         </tr>
         <tr>
             <td rowspan="2">工程化</td>
             <td><a href="/lib/工程化/性能指标">性能指标</a></td>
-            <td>❌性能监控</td>
-            <td>❌错误监控</td>
-            <td>❌性能优化</td>
-            <td>❌埋点</td>
+            <td>*性能监控</td>
+            <td>*错误监控</td>
+            <td>*性能优化</td>
+            <td>*埋点</td>
         </tr>
         <tr>
-            <td>❌Webpack</td>
-            <td>❌Vite</td>
+            <td>*Webpack</td>
+            <td>*Vite</td>
             <td><a href="/lib/工程化/CICD工作流">CI/CD</a></td>
-            <td>❌微前端</td>
+            <td>*微前端</td>
             <td></td>
         </tr>
         <tr>
@@ -166,11 +166,11 @@
             <td></td>
         </tr>
         <tr>
-            <td>❌CSS</td>
-            <td>❌盒子模型</td>
-            <td>❌BFC</td>
-            <td>❌流式布局</td>
-            <td>❌弹性布局</td>
+            <td>*CSS</td>
+            <td>*盒子模型</td>
+            <td>*BFC</td>
+            <td>*流式布局</td>
+            <td>*弹性布局</td>
         </tr>
     </tbody>
 </table>
@@ -202,7 +202,7 @@
         </tr>
         <tr>
             <td><a href="/lib/算法/链表/相交链表">相交链表</a></td>
-            <td><a href="/lib/算法/链表/K个一组翻转链表">❌K个一组翻转链表</a></td>
+            <td><a href="/lib/算法/链表/K个一组翻转链表">*K个一组翻转链表</a></td>
             <td><a href="/lib/算法/链表/从尾到头打印链表">从尾到头打印链表</a></td>
             <td><a href="/lib/算法/链表/返回倒数第K个节点">返回倒数第K个节点</a></td>
             <td><a href="/lib/算法/链表/删除排序链表中的重复元素">删除排序链表中的重复元素</a></td>
@@ -238,15 +238,15 @@
         </tr>
         <tr>
             <td>栈</td>
-            <td><a href="/lib/算法/栈/有效的括号">❌有效的括号</a></td>
-            <td><a href="/lib/算法/栈/柱状图中最大的矩形">❌柱状图中最大的矩形</a></td>
-            <td><a href="/lib/算法/栈/最小栈">❌最小栈</a></td>
-            <td><a href="/lib/算法/栈/删除字符串中的所有相邻重复项">❌删除字符串中的所有相邻重复项</a></td>
-            <td><a href="/lib/算法/栈/每日温度">❌每日温度</a></td>
+            <td><a href="/lib/算法/栈/有效的括号">*有效的括号</a></td>
+            <td><a href="/lib/算法/栈/柱状图中最大的矩形">*柱状图中最大的矩形</a></td>
+            <td><a href="/lib/算法/栈/最小栈">*最小栈</a></td>
+            <td><a href="/lib/算法/栈/删除字符串中的所有相邻重复项">*删除字符串中的所有相邻重复项</a></td>
+            <td><a href="/lib/算法/栈/每日温度">*每日温度</a></td>
         </tr>
         <tr>
             <td>队列</td>
-            <td><a href="/lib/算法/队列/滑动窗口最大值">❌滑动窗口最大值</a></td>
+            <td><a href="/lib/算法/队列/滑动窗口最大值">*滑动窗口最大值</a></td>
             <td><a href="/lib/算法/队列/"></a></td>
             <td><a href="/lib/算法/队列/"></a></td>
             <td><a href="/lib/算法/队列/"></a></td>
@@ -254,19 +254,19 @@
         </tr>
         <tr>
             <td>贪心</td>
-            <td><a href="/lib/算法/贪心/跳跃游戏">❌跳跃游戏</a></td>
-            <td><a href="/lib/算法/贪心/分发饼干">❌分发饼干</a></td>
-            <td><a href="/lib/算法/贪心/柠檬水找零">❌柠檬水找零</a></td>
+            <td><a href="/lib/算法/贪心/跳跃游戏">*跳跃游戏</a></td>
+            <td><a href="/lib/算法/贪心/分发饼干">*分发饼干</a></td>
+            <td><a href="/lib/算法/贪心/柠檬水找零">*柠檬水找零</a></td>
             <td><a href="/lib/算法/贪心/"></a></td>
             <td><a href="/lib/算法/贪心/"></a></td>
         </tr>
         <tr>
             <td>回溯</td>
-            <td><a href="/lib/算法/回溯/全排列">❌全排列</a></td>
-            <td><a href="/lib/算法/回溯/电话号码的字母组合">❌电话号码的字母组合</a></td>
-            <td><a href="/lib/算法/回溯/全排列II">❌全排列II</a></td>
-            <td><a href="/lib/算法/回溯/括号生成">❌括号生成</a></td>
-            <td><a href="/lib/算法/回溯/组合总和">❌组合总和</a></td>
+            <td><a href="/lib/算法/回溯/全排列">*全排列</a></td>
+            <td><a href="/lib/算法/回溯/电话号码的字母组合">*电话号码的字母组合</a></td>
+            <td><a href="/lib/算法/回溯/全排列II">*全排列II</a></td>
+            <td><a href="/lib/算法/回溯/括号生成">*括号生成</a></td>
+            <td><a href="/lib/算法/回溯/组合总和">*组合总和</a></td>
         </tr>
     </tbody>
 </table>
@@ -283,40 +283,40 @@
         <tr>
             <td><a href="/lib/设计模式">设计模式｜创建型</a></td>
             <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
-            <td>❌工厂方法</td>
-            <td>❌抽象工厂</td>
-            <td>❌生成器</td>
-            <td>❌原型</td>
+            <td>*工厂方法</td>
+            <td>*抽象工厂</td>
+            <td>*生成器</td>
+            <td>*原型</td>
         </tr>
         <tr>
             <td rowspan="2"><a href="/lib/设计模式">设计模式｜结构型</a></td>
-            <td>❌适配器</td>
-            <td>❌桥接</td>
-            <td>❌组合</td>
-            <td>❌装饰</td>
-            <td>❌外观</td>
+            <td>*适配器</td>
+            <td>*桥接</td>
+            <td>*组合</td>
+            <td>*装饰</td>
+            <td>*外观</td>
         </tr>
         <tr>
-            <td>❌享元</td>
-            <td>❌代理</td>
+            <td>*享元</td>
+            <td>*代理</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td rowspan="2"><a href="/lib/设计模式">设计模式｜行为</a></td>
-            <td>❌责任链</td>
-            <td>❌命令</td>
-            <td>❌迭代器</td>
-            <td>❌中介者</td>
-            <td>❌备忘录</td>
+            <td>*责任链</td>
+            <td>*命令</td>
+            <td>*迭代器</td>
+            <td>*中介者</td>
+            <td>*备忘录</td>
         </tr>
         <tr>
-            <td>❌观察者</td>
-            <td>❌状态</td>
-            <td>❌策略</td>
-            <td>❌模版方法</td>
-            <td>❌访问者</td>
+            <td>*观察者</td>
+            <td>*状态</td>
+            <td>*策略</td>
+            <td>*模版方法</td>
+            <td>*访问者</td>
         </tr>
     </tbody>
 </table>

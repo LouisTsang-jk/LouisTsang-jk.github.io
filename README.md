@@ -249,9 +249,9 @@
         </tr>
         <tr>
             <td>贪心</td>
-            <td><a href="/lib/算法/贪心/跳跃游戏">*跳跃游戏</a></td>
-            <td><a href="/lib/算法/贪心/分发饼干">*分发饼干</a></td>
-            <td><a href="/lib/算法/贪心/柠檬水找零">*柠檬水找零</a></td>
+            <td><a href="/lib/算法/贪心/跳跃游戏">跳跃游戏</a></td>
+            <td><a href="/lib/算法/贪心/分发饼干">分发饼干</a></td>
+            <td><a href="/lib/算法/贪心/柠檬水找零">柠檬水找零</a></td>
             <td><a href="/lib/算法/贪心/"></a></td>
             <td><a href="/lib/算法/贪心/"></a></td>
         </tr>
@@ -262,6 +262,22 @@
             <td><a href="/lib/算法/回溯/全排列II">*全排列II</a></td>
             <td><a href="/lib/算法/回溯/括号生成">*括号生成</a></td>
             <td><a href="/lib/算法/回溯/组合总和">*组合总和</a></td>
+        </tr>
+        <tr>
+            <td>二分查找</td>
+            <td><a href="/lib/算法/二分查找/二分查找">*二分查找</a></td>
+            <td><a href="/lib/算法/二分查找/搜索旋转排序数组">*搜索旋转排序数组</a></td>
+            <td><a href="/lib/算法/二分查找/搜索插入位置">*搜索插入位置</a></td>
+            <td><a href="/lib/算法/二分查找/括号生成"></a></td>
+            <td><a href="/lib/算法/二分查找/组合总和"></a></td>
+        </tr>
+        <tr>
+            <td>动态规划</td>
+            <td><a href="/lib/算法/动态规划/爬楼梯">*爬楼梯</a></td>
+            <td><a href="/lib/算法/动态规划/买卖股票的最佳时机">*买卖股票的最佳时机</a></td>
+            <td><a href="/lib/算法/动态规划/"></a></td>
+            <td><a href="/lib/算法/动态规划/"></a></td>
+            <td><a href="/lib/算法/动态规划/"></a></td>
         </tr>
     </tbody>
 </table>

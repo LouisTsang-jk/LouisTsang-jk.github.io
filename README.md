@@ -125,7 +125,7 @@
             <td>*埋点</td>
         </tr>
         <tr>
-            <td>*Webpack</td>
+            <td><a href="/lib/工程化/Webpack">Webpack</a></td>
             <td>*Vite</td>
             <td><a href="/lib/工程化/CICD工作流">CI/CD</a></td>
             <td>*微前端</td>

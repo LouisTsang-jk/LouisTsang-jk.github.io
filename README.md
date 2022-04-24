@@ -110,7 +110,7 @@
             <td><a href="/lib/网络/DNS">*DNS</a></td>
         </tr>
         <tr>
-            <td>*CDN</td>
+            <td><a href="/lib/网络/CDN">CDN</a></td>
             <td><a href="/lib/网络/缓存">缓存</a></td>
             <td>*存储</td>
             <td>*跨域</td>

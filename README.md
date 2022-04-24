@@ -105,8 +105,8 @@
             <td rowspan="2">网络</td>
             <td>*TCP</td>
             <td>*UDP</td>
-            <td>*HTTP</td>
-            <td>*HTTPS</td>
+            <td><a href="/lib/网络/HTTP">HTTP</a></td>
+            <td><a href="/lib/网络/HTTPS">HTTPS</a></td>
             <td>*DNS</td>
         </tr>
         <tr>
@@ -162,7 +162,7 @@
 <table>
     <thead>
         <tr>
-            <th>算法</th>
+            <th colspan="6">算法</th>
         </tr>
     </thead>
     <tbody>
@@ -289,7 +289,7 @@
 <table>
     <thead>
         <tr>
-            <th>设计模式</th>
+            <th colspan="6">设计模式</th>
         </tr>
     </thead>
     <tbody>

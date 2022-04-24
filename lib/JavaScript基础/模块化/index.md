@@ -12,6 +12,20 @@ const { PI } = Math;
 exports.area = (r) => PI * r ** 2;
 exports.circumference = (r) => 2 * PI * r;
 ```
+
+### 流程
+- 解析文件绝对路径    
+  - 内置模块直接返回
+  - 相对/绝对路径会合并文件路径
+  - node_module遍历
+  - 缓存
+- 读取文件    
+同步加载模块
+- 封装    
+注入`require`、`module`、`exports`变量
+- 编译    
+- 执行    
+- 缓存    
 ## AMD(Asynchronous Module Definition)
 异步加载模块，允许指定回调函数。也采取`require()`语句。
 `不能按需加载`

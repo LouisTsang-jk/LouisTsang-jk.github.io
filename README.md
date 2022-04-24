@@ -71,21 +71,6 @@
             <td><a href="/lib/手写代码/常规/404"></a></td>
         </tr>
         <tr>
-            <td rowspan="2"><a href="/lib/手写代码/常规/apply">排序算法</a></td>
-            <td><a href="/lib/手写代码/排序/冒泡算法">冒泡算法</a></td>
-            <td><a href="/lib/手写代码/排序/选择算法">选择算法</a></td>
-            <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
-            <td><a href="/lib/手写代码/排序/插入排序">*插入排序</a></td>
-            <td><a href="/lib/手写代码/排序/希尔排序">*希尔排序</a></td>
-        </tr>
-        <tr>
-            <td><a href="/lib/手写代码/排序/归并排序">*归并排序</a></td>
-            <td><a href="/lib/手写代码/排序/堆排序">*堆排序</a></td>
-            <td><a href="/lib/手写代码/排序/计数排序">*计数排序</a></td>
-            <td><a href="/lib/手写代码/排序/桶排序">*桶排序</a></td>
-            <td><a href="/lib/手写代码/排序/基数排序">*基数排序</a></td>
-        </tr>
-        <tr>
             <td rowspan="2">手写代码｜TS泛型</td>
             <td><a href="/lib/手写代码/TypeScript泛型/Exclude.ts">Exclude</a></td>
             <td><a href="/lib/手写代码/TypeScript泛型/Extract.ts">Extract</a></td>
@@ -281,6 +266,21 @@
             <td><a href="/lib/算法/动态规划/"></a></td>
             <td><a href="/lib/算法/动态规划/"></a></td>
         </tr>
+        <tr>
+            <td rowspan="2"><a href="/lib/手写代码/常规/apply">排序算法</a></td>
+            <td><a href="/lib/手写代码/排序/冒泡排序">冒泡排序</a></td>
+            <td><a href="/lib/手写代码/排序/选择排序">选择排序</a></td>
+            <td><a href="/lib/手写代码/排序/快速排序">快速排序</a></td>
+            <td><a href="/lib/手写代码/排序/插入排序">*插入排序</a></td>
+            <td><a href="/lib/手写代码/排序/希尔排序">*希尔排序</a></td>
+        </tr>
+        <tr>
+            <td><a href="/lib/手写代码/排序/归并排序">*归并排序</a></td>
+            <td><a href="/lib/手写代码/排序/堆排序">*堆排序</a></td>
+            <td><a href="/lib/手写代码/排序/计数排序">*计数排序</a></td>
+            <td><a href="/lib/手写代码/排序/桶排序">*桶排序</a></td>
+            <td><a href="/lib/手写代码/排序/基数排序">*基数排序</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -289,7 +289,7 @@
 <table>
     <thead>
         <tr>
-            <th>算法</th>
+            <th>设计模式</th>
         </tr>
     </thead>
     <tbody>

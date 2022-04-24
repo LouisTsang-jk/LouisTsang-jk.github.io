@@ -86,40 +86,80 @@ function FiberNode(
   > 同时两棵树的 Fiber 节点会通过`alternate`属性连接起来。
 
 #### render
-> 该阶段异步
-##### beginWork
-从`rootFiber`开始深度优先遍历，创建传入的`FiberNode`的子节点，当遍历到叶节点。
-- mount    
-组件首次渲染，根据`fiber.tag`渲染对应`FiberNode`(FunctionComponent、ClassComponent、HostComponent)。
-- update    
-如果存在current，并满足**一定条件**的时候可以复用。
-  1. `props`和`fiber.type`不变
-  2. Fiber节点优先度不够
-> 可以理解为递归的"递"阶段    
 
-> effectTag: render阶段后通知`Renderer`需要执行的DOM操作(PlacementAndUpdate、Deletion)
+> 该阶段异步
+
+##### beginWork
+
+从`rootFiber`开始深度优先遍历，创建传入的`FiberNode`的子节点，当遍历到叶节点。
+
+- mount  
+  组件首次渲染，根据`fiber.tag`渲染对应`FiberNode`(FunctionComponent、ClassComponent、HostComponent)。
+- update  
+  如果存在 current，并满足**一定条件**的时候可以复用。
+  1. `props`和`fiber.type`不变
+  2. Fiber 节点优先度不够
+     > 可以理解为递归的"递"阶段
+
+> effectTag: render 阶段后通知`Renderer`需要执行的 DOM 操作(PlacementAndUpdate、Deletion)
+
 ##### completeWork
-- mount    
-  1. 生成对应DOM节点
-  2. 插入子孙DOM节点
+
+- mount
+  1. 生成对应 DOM 节点
+  2. 插入子孙 DOM 节点
   3. `处理props`
-- update   
-当前阶段下已存在DOM节点，主要是`处理props`
-> effectList: 为了提高性能，会在此阶段生成effectList(单向链表)作为DOM操作的依据
+- update  
+  当前阶段下已存在 DOM 节点，主要是`处理props`    
+
+  处理`HostComponent`的时候，处理好的`props`会赋值到`workInProgress.updateQueue`并在`commit`阶段进行渲染
+  > effectList: 为了提高性能，会在此阶段生成 effectList(单向链表)作为 DOM 操作的依据
 
 #### commit
+
 > 该阶段同步
+
 里面又分三个阶段：
-- `before mutation阶段`     
-执行DOM操作前，遍历effectList并调用`commitBeforeMutationEffects`函数。
+> **这里每个阶段本质都是遍历`effectList`**
+- `before mutation阶段`  
+  执行 DOM 操作前，遍历 effectList 并调用`commitBeforeMutationEffects`函数。
   - commitBeforeMutationEffects
-    1. 处理DOM渲染/删除后的`autoFocus`、`blur`逻辑
-    2. 调用`getSnapshotBeforeUpdate`生命周期函数
+    1. 处理 DOM 渲染/删除后的`autoFocus`、`blur`逻辑
+    2. 调用`getSnapshotBeforeUpdate`生命周期函数  
+       **(commit 阶段同步执行，不会重复执行)**
     3. 调度`useEffect`
-- `mutation阶段`   
-执行DOM操作
-- `layout阶段`    
-执行DOM操作后
+      // TODO 这里需要补充如何调度
+       > 有`useEffect`和`useLayoutEffect`的 Fiber 节点也会被赋值 `effectTag`
+- `mutation阶段`  
+  执行 DOM 操作，遍历 effectList 并调用`commitMutationEffects`函数。
+  - commitMutationEffects
+    1. 重置文本节点(节点的文字内容设置为空字符串)
+    2. 更新ref
+    3. 根据effectTag执行对应的DOM操作
+      - Placement 
+        1. 获取父级DOM节点
+        2. 获取Fiber节点的DOM兄弟节点
+        3. 根据步骤二结果调用`parent.insertBefore`或`parent.appendChild`
+      - Update
+        - FunctionComponent mutation   
+          **遍历effectList，执行所有`useLayoutEffect`的销毁函数**
+        - HostComponent mutation
+      - Deletion
+        - commitDeletion
+          1. 递归Fiber节点及其子孙Fiber节点中的`fiber.tag`为`ClassComponent`的`componentWillUnmount`的生命周期函数，从页面中移除对应DOM节点
+          2. 解绑`ref`
+          3. 调度`useEffect`的销毁函数
+- `layout阶段`  
+  - commitLayoutEffects
+    - commitLayoutEffectOnFiber
+      - ClassComponent   
+        根据`mount`或`update`阶段的`effectTag`执行对应的生命周期函数(`componentDidMount`或`componentDidUpdate`)
+      - FunctionComponent    
+        1. 调用`useLayoutEffect`的回调函数
+        2. 调度`useEffect`
+          TODO 这里不确定
+    - commitAttachRef
+  执行 DOM 操作后，
 
 # 参考
 

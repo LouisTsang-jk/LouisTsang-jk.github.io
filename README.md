@@ -3,11 +3,6 @@
 ## LouisTsang 的学习记录
 > 从[Github｜Web知识日志](https://github.com/LouisTsang-jk/Learn-Web)整理归类
 
-| Emoji | Description |
-| ---- | -------- |
-|*| 未开始  |
-|🤯| 进行中 |
-|🤨| 待补充/存疑 |
 ---
 
 <table>
@@ -238,11 +233,11 @@
         </tr>
         <tr>
             <td>栈</td>
-            <td><a href="/lib/算法/栈/有效的括号">*有效的括号</a></td>
-            <td><a href="/lib/算法/栈/柱状图中最大的矩形">*柱状图中最大的矩形</a></td>
-            <td><a href="/lib/算法/栈/最小栈">*最小栈</a></td>
-            <td><a href="/lib/算法/栈/删除字符串中的所有相邻重复项">*删除字符串中的所有相邻重复项</a></td>
-            <td><a href="/lib/算法/栈/每日温度">*每日温度</a></td>
+            <td><a href="/lib/算法/栈/有效的括号">有效的括号</a></td>
+            <td><a href="/lib/算法/栈/柱状图中最大的矩形">柱状图中最大的矩形</a></td>
+            <td><a href="/lib/算法/栈/最小栈">最小栈</a></td>
+            <td><a href="/lib/算法/栈/删除字符串中的所有相邻重复项">删除字符串中的所有相邻重复项</a></td>
+            <td><a href="/lib/算法/栈/每日温度">每日温度</a></td>
         </tr>
         <tr>
             <td>队列</td>

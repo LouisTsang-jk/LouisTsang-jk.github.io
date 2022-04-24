@@ -1,5 +1,7 @@
 # Compose(Koa)
+
 洋葱模型
+![onion_model.png](./onion_model.png)
 
 ## Code
 

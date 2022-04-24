@@ -113,7 +113,7 @@
             <td><a href="/lib/网络/CDN">CDN</a></td>
             <td><a href="/lib/网络/缓存">缓存</a></td>
             <td><a href="/lib/网络/存储">存储</a></td>
-            <td>*跨域</td>
+            <td><a href="/lib/网络/跨域">跨域</a></td>
             <td></td>
         </tr>
         <tr>

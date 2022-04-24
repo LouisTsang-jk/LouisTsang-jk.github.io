@@ -293,7 +293,7 @@
     <tbody>
         <tr>
             <td><a href="/lib/设计模式">设计模式｜创建型</a></td>
-            <td><a href="/lib/设计模式/Singleton">单例模式</a></td>
+            <td><a href="/lib/设计模式/创建模式/单例模式">单例模式</a></td>
             <td>*工厂方法</td>
             <td>*抽象工厂</td>
             <td>*生成器</td>
@@ -325,7 +325,7 @@
         <tr>
             <td>*观察者</td>
             <td>*状态</td>
-            <td>*策略</td>
+            <td><a href="/lib/设计模式/行为模式/策略模式">策略</a></td>
             <td>*模版方法</td>
             <td>*访问者</td>
         </tr>

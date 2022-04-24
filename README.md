@@ -102,8 +102,8 @@
             <td>*DVA</td>
         </tr>
         <tr>
-            <td rowspan="2">网络</td>
-            <td>*TCP</td>
+            <td rowspan="2"><a href="/lib/网络">网络</a></td>
+            <td><a href="/lib/网络/TCP">TCP</a></td>
             <td>*UDP</td>
             <td><a href="/lib/网络/HTTP">HTTP</a></td>
             <td><a href="/lib/网络/HTTPS">HTTPS</a></td>

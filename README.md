@@ -107,12 +107,12 @@
             <td><a href="/lib/网络/UDP">UDP</a></td>
             <td><a href="/lib/网络/HTTP">HTTP</a></td>
             <td><a href="/lib/网络/HTTPS">HTTPS</a></td>
-            <td><a href="/lib/网络/DNS">*DNS</a></td>
+            <td><a href="/lib/网络/DNS">DNS</a></td>
         </tr>
         <tr>
             <td><a href="/lib/网络/CDN">CDN</a></td>
             <td><a href="/lib/网络/缓存">缓存</a></td>
-            <td>*存储</td>
+            <td><a href="/lib/网络/存储">存储</a></td>
             <td>*跨域</td>
             <td></td>
         </tr>

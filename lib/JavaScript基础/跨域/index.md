@@ -38,6 +38,7 @@ postMessage(data, origin)
 ### CORS
 
 设置 CORS
+TODO
 
 ### nginx 反向代理
 

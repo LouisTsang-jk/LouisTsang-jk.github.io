@@ -66,7 +66,7 @@
         <tr>
             <td><a href="/lib/手写代码/常规/Compose/Koa">Compose(Koa)</a></td>
             <td><a href="/lib/手写代码/常规/Compose/Redux">Compose(Redux)</a></td>
-            <td><a href="/lib/手写代码/常规/404"></a></td>
+            <td><a href="/lib/手写代码/常规/404">Reactive</a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
             <td><a href="/lib/手写代码/常规/404"></a></td>
         </tr>
@@ -303,7 +303,7 @@
         </tr>
         <tr>
             <td rowspan="2"><a href="/lib/设计模式">设计模式｜结构模式</a></td>
-            <td>*适配器</td>
+            <td><a href="/lib/设计模式/结构模式/适配器">适配器</a></td>
             <td>*桥接</td>
             <td>*组合</td>
             <td>*装饰</td>

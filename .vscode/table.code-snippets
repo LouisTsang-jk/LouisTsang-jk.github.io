@@ -1,0 +1,13 @@
+{
+	// Mac环境下使用auto complete(fn + control + space)
+	"Create Leetcode Template": {
+		"scope": "markdown",
+		"prefix": "markdown table",
+		"body": [
+			"| $1 | $2 |",
+			"|:---:|:---:|",
+			"| $3  | $4  |",
+		],
+		"description": "创建Table(Markdown)"
+	}
+}

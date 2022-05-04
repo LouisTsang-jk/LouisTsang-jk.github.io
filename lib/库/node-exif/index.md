@@ -18,6 +18,7 @@
   ```
   - getShort    
   用途就是获取一个16进制的数，因为buff存储的时候会使用两个字节去存，例如buff是<Buffer 4D 4D>，buff[0]就是4D，通过getShort方法可以获取`0x4D4D`。
+  - getLong   
 - extractExifEntry(data, entryOffset, tiffOffset, isBigEndian, tags)
   - data.slice(entryOffset, entryOffset + 2)
   - entry.value = data.getString(entry.valueOffset, entry.components);

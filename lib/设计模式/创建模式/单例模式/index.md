@@ -17,7 +17,7 @@
 - 没有抽象层，扩展比较困难
 - 职责过重，违背单一职责原则
 ## JavaScript实现
-[Singleton.js](../../手写代码/设计模式/Singleton)
+[Singleton.js](../../手写代码/设计模式/Singleton/index.js)
 
 # 参考
 [单例模式（单例设计模式）详解](http://c.biancheng.net/view/1338.html)

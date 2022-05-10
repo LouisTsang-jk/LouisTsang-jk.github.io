@@ -25,7 +25,9 @@ fn main () {
 ## 变量与数据交互的方式
 
 ### 移动(Move)
-将变量A赋值到变量B，如果是基本数据类型(栈)的话是移动。
+
+将变量 A 赋值到变量 B，如果是基本数据类型(栈)的话是移动。
+
 - 整数
 - 浮点
 - 布尔
@@ -35,7 +37,7 @@ fn main () {
 ```
 fn main () {
     let s1 = "Hello"; // 这个存在栈空间
-    let s2 = s1; 
+    let s2 = s1;
     println!("s1: {}", s1);
     println!("s2: {}", s2);
 }
@@ -43,21 +45,24 @@ fn main () {
 // s1: Hello
 // s2: Hello
 ```
+
 ```
 fn main () {
     let s1 = String::from("hello"); // 这个存在堆空间
-    let s2 = s1; 
+    let s2 = s1;
     println!("s1: {}", s1);
     println!("s2: {}", s2);
 }
 // 报错
 // error[E0382]: borrow of moved value: `s1`
 ```
+
 ### 克隆(Clone)
+
 ```
 fn main () {
     let s1 = String::from("hello"); // 这个存在堆空间
-    let s2 = s1.clone(); 
+    let s2 = s1.clone();
     println!("s1: {}", s1);
     println!("s2: {}", s2);
 }
@@ -66,13 +71,20 @@ fn main () {
 ```
 
 ### 涉及函数
+
+[fn.rs](./fn.rs)
+[return.rs](./return.rs)
+
+### 引用
+
+基本和 C 语言指针一样
+
 ```
 fn main () {
-  let s = String::from("Hello");
-  scream(s);
-  println!("main：{}", s);
-}
-fn scream (str: String) {
-  println!("scream: {}", str);
+  let s1 = String::from("Hello");
+  let s2 = &s1;
+  println!("s1 is {}, s2 is {}", s1, s2);
 }
 ```
+
+### 租借

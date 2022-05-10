@@ -64,3 +64,15 @@ fn main () {
 // s1: hello
 // s2: hello
 ```
+
+### 涉及函数
+```
+fn main () {
+  let s = String::from("Hello");
+  scream(s);
+  println!("main：{}", s);
+}
+fn scream (str: String) {
+  println!("scream: {}", str);
+}
+```

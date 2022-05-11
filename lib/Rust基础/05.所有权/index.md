@@ -75,7 +75,7 @@ fn main () {
 [fn.rs](./fn.rs)
 [return.rs](./return.rs)
 
-### 引用
+### 引用和租借
 
 基本和 C 语言指针一样
 
@@ -86,5 +86,30 @@ fn main () {
   println!("s1 is {}, s2 is {}", s1, s2);
 }
 ```
+> 引用不会获得值的所有权，只能租借(Borrow)值的**所有权**
+```
+fn main() {
+    let s1 = String::from("hello");
+    let s2 = &s1;
+    let s3 = s1;
+    println!("{}", s2);
+}
+// error[E0505]: cannot move out of `s1` because it is borrowed
+```
+> 租借的所有权不能修改所有者的值
+```
+fn main() {
+    let s1 = String::from("run");
+    let s2 = &s1;
+    // let mut s1 = String::from("run");
+    // let s2 = &mut s1;
+    println!("{}", s2);
+    s2.push_str("oob"); // 错误，禁止修改租借的值
+    println!("{}", s2);
+}
+```
 
-### 租借
+> 此外可变引用与不可变引用相比除了权限不同以外，可变引用不允许多重引用，但不可变引用可以。这是避免并发状态下发生数据访问碰撞
+
+### 垂悬引用(Dangling References)
+没有实际指向一个真正能访问的数据的指针(空指针、已释放空资源)

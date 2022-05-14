@@ -1,0 +1,21 @@
+# Visual Studio Code
+
+
+## 调试Node
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/index.js",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v16.15.0/bin/node" // 这里路径可以使用npm config get prefix
+    }
+  ]
+}
+```

@@ -40,9 +40,11 @@ Webpack 是 JavaScript 应用的模块打包器，可以将 JavaScript 模块按
 ## 如何使用 Webpack？
 
 [快速开始](./quickStart.md)
-
+要了解Webpack的运行过程，我们就要了解Webpack中两个大概念Loader、Plugin。
 ### Loader
 
+使用 Loader 可以让 Webpack 加载除了 JavaScript 的资源(vue-loader、babel-loader、ts-loader 等)，本质来讲Loader就是资源转换器。
+[编写Loader](./编写Loader/index.md)
 ### Plugin
 
 ## 源码解读

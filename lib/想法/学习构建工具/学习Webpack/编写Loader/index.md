@@ -1,5 +1,7 @@
-# 编写Loader
+# Loader
+## 编写Loader
 > 因为Loader内可以通过this访问上下文，所以Loader不能是箭头函数，异步操作通过callback
+### 示例
 - sync
 ```
 function (content, map, meta) {
@@ -14,6 +16,6 @@ function (content, map, meta) {
 }
 ```
 
-## 示例
+### 实现
 写一个`loader`，自动将`// log: (输出)`的内容转成`console.log(输出)`
 [Demo](./demo.png)

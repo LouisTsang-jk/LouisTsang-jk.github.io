@@ -44,9 +44,36 @@ Webpack 是 JavaScript 应用的模块打包器，可以将 JavaScript 模块按
 ### Loader
 
 使用 Loader 可以让 Webpack 加载除了 JavaScript 的资源(vue-loader、babel-loader、ts-loader 等)，本质来讲Loader就是资源转换器。
-[编写Loader](./编写Loader/index.md)
-### Plugin
 
+#### 使用
+配置`webpack.config.js`
+```
+module.exports = {
+  ...
+  module: {
+    rules: [
+      {
+        test: /\.css&/, // 正则匹配要处理的文件
+        use: ['style-loader', 'css-loader?minimize'] // 通过URL querystring传参
+      }
+    ]
+  }
+}
+```
+> Loader执行顺序是从后往前，所以`css-loader`会先执行，`style-loader`会后执行。
+#### [编写Loader](./编写Loader/index.md)
+### Plugin
+基于`Tapable`架构，在Webpack构建的流程中注入钩子，可以让用户行为介入到构建过程中。
+#### 使用
+插件间使用差距较大，这里就不一一叙述
+#### [编写Plugin](./编写Plugin/index.md)
+
+## 核心概念
+- `Compiler`
+- `Compilation`
+- `Module`
+- `Chunk`
+- `Bundle`
 ## 源码解读
 
 ### 结构/流程(如何工作)

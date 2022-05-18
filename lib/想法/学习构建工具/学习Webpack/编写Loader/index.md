@@ -13,3 +13,7 @@ function (content, map, meta) {
   return;
 }
 ```
+
+## 示例
+写一个`loader`，自动将`// log: (输出)`的内容转成`console.log(输出)`
+[Demo](./demo.png)

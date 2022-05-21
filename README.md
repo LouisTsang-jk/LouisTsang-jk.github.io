@@ -153,6 +153,7 @@
             <td><a href="/lib/CSS/上下文">BFC/IFC/FFC</a></td>
             <td>*流式布局</td>
             <td>*弹性布局</td>
+            <td>*网格布局</td>
         </tr>
     </tbody>
 </table>
@@ -327,7 +328,7 @@
         <tr>
             <td>*观察者</td>
             <td>*状态</td>
-            <td><a href="/lib/设计模式/行为模式/策略模式">策略</a></td>
+            <td><a href="/lib/设计模式/行为模式/策略模式">策略模式</a></td>
             <td>*模版方法</td>
             <td>*访问者</td>
         </tr>

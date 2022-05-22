@@ -108,6 +108,19 @@ module.exports = {
 ```
 
 ## 源码解读
+### 如何调试
+1. 先使用webpack编写使用[demo](./webpack-demo)
+2. 在demo项目，`yarn link webpack`
+3. 拉取webpack源码，使用`yarn link`
+4. 在webpack源码，`/webpack/bin/webpack.js` 中第一行添加`#!/usr/bin/env node --inspect-brk`
+5. 在chrome的`chrome://inspect`中，可以看到webpack的源码
+
+### debug
+1. create创建阶段(lib/webpack.js)
+  - 初始化`compiler`
+    - 调用`createCompiler`，创建`compiler`(lib/Compiler.js)
+    创建hooks
+  - 
 
 ### 结构/流程(如何工作)
 

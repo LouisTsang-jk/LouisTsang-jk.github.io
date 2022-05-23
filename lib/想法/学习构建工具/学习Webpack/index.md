@@ -119,7 +119,9 @@ module.exports = {
 1. create创建阶段(lib/webpack.js)
   - 初始化`compiler`
     - 调用`createCompiler`，创建`compiler`(lib/Compiler.js)
-    创建hooks
+      - options标准化
+      - 构建context
+      - NodeEnvironmentPlugin
   - 
 
 ### 结构/流程(如何工作)

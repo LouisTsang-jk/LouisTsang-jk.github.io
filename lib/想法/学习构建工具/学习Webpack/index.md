@@ -115,6 +115,10 @@ module.exports = {
 4. 在webpack源码，`/webpack/bin/webpack.js` 中第一行添加`#!/usr/bin/env node --inspect-brk`
 5. 在chrome的`chrome://inspect`中，可以看到webpack的源码
 
+
+### Target
+[ ] 如何建立模块之间的依赖图
+[ ] tree shaking原理
 ### debug
 1. create创建阶段(lib/webpack.js)
   - 初始化`compiler`

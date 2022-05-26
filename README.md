@@ -120,7 +120,7 @@
             <td rowspan="2">工程化</td>
             <td><a href="/lib/工程化/性能指标">性能指标</a></td>
             <td>*性能监控</td>
-            <td>*错误监控</td>
+            <td><a href="/lib/工程化/错误监控">错误监控</a></td>
             <td>*性能优化</td>
             <td>*埋点</td>
         </tr>

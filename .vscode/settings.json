@@ -2,6 +2,7 @@
   "cSpell.words": [
     "instanceof",
     "mousewheel",
-    "proto"
+    "proto",
+    "Tapable"
   ]
 }

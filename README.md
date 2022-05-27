@@ -94,6 +94,14 @@
             <td>*Hook</td>
         </tr>
         <tr>
+            <td>React优先级*</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td>数据流</td>
             <td>*Flux</td>
             <td>*Redux</td>

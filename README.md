@@ -88,7 +88,7 @@
         <tr>
             <td>React</td>
             <td><a href="/lib/库/React/虚拟DOM">虚拟DOM</a></td>
-            <td>*合成事件</td>
+            <td><a href="/lib/库/React/合成事件"></a></td>
             <td>*时间切片</td>
             <td><a href="/lib/库/React/Fiber">Fiber</a></td>
             <td>*Hook</td>

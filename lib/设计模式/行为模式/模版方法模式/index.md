@@ -11,24 +11,22 @@
 
 ## 示例
 经典Demo——Coffee or Tea
-```
-const Coffee = function () {}
-Coffee.prototype.boilWater = function () {
-  console.log('把水煮沸')
-}
-Coffee.prototype.brewCoffeeGrinds = function () {
-  console.log('把沸水冲泡咖啡')
-}
-Coffee.prototype.pourInCpu = function () {
-  console.log('把咖啡倒进杯子')
-}
-Coffee.prototype.addSugarAndMilk = function () {
-  console.log('加入糖和牛奶')
-}
-Coffee.prototype.init = function () {
-  this.boilWater()
-  this.brewCoffeeGrinds()
-  this.pourInCpu()
-  this.addSugarAndMilk()
-}
-```
+#### 泡咖啡的流程
+1. 把水煮沸
+2. 用沸水冲泡咖啡
+3. 把咖啡倒进杯子
+4. 加糖和牛奶
+
+#### 泡茶的流程
+1. 把水煮沸
+2. 把沸水浸泡茶叶
+3. 把茶水倒入杯子
+4. 加柠檬
+
+两个过程中，可以抽象出：
+- `原料(咖啡|茶)`
+- `方式(冲泡|浸泡)`
+- `调料(糖|牛奶)`
+
+   
+抽离父类来表示一杯饮料的制作过程。

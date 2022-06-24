@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/LouisTsang-jk/LouisTsang-jk.github.io#readme",
   "devDependencies": {
+    "@type-challenges/utils": "^0.1.1",
     "jest": "^27.5.1",
     "promises-aplus-tests": "^2.1.2"
   }

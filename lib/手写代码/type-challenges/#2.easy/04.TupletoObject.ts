@@ -23,6 +23,7 @@
 type TupleToObject<T extends readonly PropertyKey[]> = {
   [K in T[number]]: K;
 };
+// 通过T[number]遍历
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";

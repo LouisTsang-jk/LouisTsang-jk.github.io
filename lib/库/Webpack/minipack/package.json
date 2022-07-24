@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/traverse": "^7.18.9",
+    "@types/node": "^18.0.6"
+  },
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "main": "bundler.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node bundler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
